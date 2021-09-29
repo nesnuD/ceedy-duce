@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: 	#d3bc8d
+}
+
+h1 {
+    color: 	#d3bc8d;    
+    text-align: center;
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 32.5px;
+    text-align: center;
+    color: black;
+    background-color: #d3bc8d;
+    height: 75px;
+
+
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 125px;
+    text-align: left;
+    font-size: 30px;
+}
+
+#ceedy1 {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -50px;
+    padding-bottom: 25px;
+}   
+
+#ceedy3 {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -50px;
+    padding-bottom: 25px;
+}
