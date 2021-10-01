@@ -5,35 +5,37 @@
         <link href="style.css" rel="stylesheet"/>
     </head>
     <body>
-        <h1><image src="cedy-1.jpg" id='ceedy1'>Ceedy Duce<image id="ceedy3" src='ceedy-3.jpg'></h1>
-        <div class='stats' id='carrer'>
-            <h2>NFL Career Stats</h2>
-                <p>Interceptions: 2</p>
-                <p>Tackles: 96</p>
-                <p>Assits: 26</p>
-                <p>Sacks: 2</p>
-                <p>Forced Fumbles: 1</p>
-            
+        <h1><image src="https://cdn.vox-cdn.com/thumbor/nbgWtYBGnegfFGTxJsrZcUq11Ns=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22685976/1287067352.jpg" id='ceedy1'/>Ceedy Duce</h1>
+        <div class='stats' id='career'>
+            <h2 id="try">NFL Career Stats</h2>
+                <p id="nfl-int">Interceptions: <button id="nfl-int-btn">2</button></p>
+                <p>Tackles: <button id="nfl-tck-btn">96</button></p>
+                <p>Assits: <button id="nfl-ast-btn">26</button></p>
+                <p>Sacks: <button id="nfl-sck-btn">2</button></p>
+                <p>Forced Fumbles: <button id="nfl-fumb-btn">1</button></p>
+                <video src="nfl-int.mp4" id="nfl-int-vid" class="nfl-vid" autoplay></video>
+                <video src="nfl-tackle.mp4" id="nfl-tck-vid" class="nfl-vid" controls autoplay></video>
         </div>
-        <div>
+        <div id="college">
             <h2>College Career Stats</h2>
-                <p>Tackles: 92</p>
-                <p>Assits: 69</p>
-                <p>Tackles for Loss: 15.5 yds</p>
-                <p>Sacks: 4</p>
-                <p>Interceptions: 9</p>
-                <p>Yards from Int: 286</p>
-                <p>Pick 6's: 3</p>
-                <p>Passes Defended: 12</p>
+                <p class="stat">Tackles: <stat>92</stat></p>
+                <p class="stat">Assits: <stat>69</stat></p>
+                <p class="stat">Tackles for Loss: <stat>15.5 yds</stat></p>
+                <p class="stat">Sacks: <stat>4</stat></p>
+                <p class="stat">Interceptions: <stat>9</stat></p>
+                <p>Yards from Int: <stat>286</stat></p>
+                <p>Pick 6's: <stat>3</stat></p>
+                <p>Passes Defended: <stat>12</stat></p>
         </div>
-        <div>
+        <div id='Highlight'>
             <h2>Ceedy-Duce Highlight Reel</h2>
-            <video controls></video>
+            <video controls href=""></video>
         </div>
-        <div>
-            <h2>Ceedy-Duce the Rapper</h2>
-        
+        <div id='music'>
+            <h2>Music</h2>
+            <video></video>
         </div>
     </body>
-    
+        <script src="./script.js">
+        </script>
 </html>

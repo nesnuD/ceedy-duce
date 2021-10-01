@@ -19,11 +19,10 @@ h2 {
 
 }
 
-p{
+p, button{
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 125px;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
 }
 
@@ -39,4 +38,36 @@ p{
     height: 150px;
     margin-bottom: -50px;
     padding-bottom: 25px;
+}
+
+
+button {
+  background-color: black;
+  color: #d3bc8d;
+}
+
+.nfl-vid{
+    margin: 0 auto;
+    width: auto;
+    height: 450px;
+}
+
+#nfl-int-vid{
+    display: none;
+}
+
+#nfl-tck-vid{
+    display: none;
+}
+
+#nfl-sck-vid{
+    display: none;
+}
+
+#nfl-ast-vid{
+    display: none;
+}
+
+#nfl-fumb-vid{
+    display: none;
 }
